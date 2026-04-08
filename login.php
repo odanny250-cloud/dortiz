@@ -17,7 +17,7 @@ require_once 'db.php'; // Traemos el código del otro archivo
   
 
 
-        $sql = "select id_usuario,password,email from usuarios where email= :email";
+        $sql = "select id,password,email from usuarios where email= :email";
         $query = $db->prepare($sql);
 
 	
