@@ -2,7 +2,7 @@
 session_start();
 
 // ¿Existe la sesión? Si no, fuera de aquí.
-if (!isset($_SESSION['id_usuario'])) {
+if (!isset($_SESSION['id'])) {
     header("Location: index.html");
     exit();
 }
