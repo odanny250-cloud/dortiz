@@ -4,8 +4,8 @@
 
 function conectarDB() {
     $host = "localhost";
-    $db   = "biblioteca";
-    $user = "biblio_usuario";
+    $db   = "jreynoso_db";
+    $user = "jreynoso";
     $pass = "12345678";
     $charset = "utf8mb4";
 
